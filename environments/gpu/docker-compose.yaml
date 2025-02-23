@@ -14,7 +14,7 @@ services:
         - PYTHON_VERSION=3.12
         - UID=${HOST_UID-1000}
         - GID=${HOST_GID-1000}
-        - PROJECT_NAME=${PrimGeoSegxDeepSDF}
+        - PROJECT_NAME=${PROJECT_NAME_ENV}
       context: ../../
       dockerfile: environments/Dockerfile
     # env_file:
