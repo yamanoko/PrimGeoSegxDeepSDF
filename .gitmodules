@@ -1,0 +1,3 @@
+[submodule "DeepSDF"]
+	path = DeepSDF
+	url = git@github.com:yamanoko/DeepSDF.git
